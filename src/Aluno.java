@@ -22,7 +22,7 @@ public class Aluno {
     }
 
     public String verificarSituacao() {
-        if (nota >= 6) {
+        if (nota >= 7) {
             return "Aprovado";
         } else {
             return "Reprovado";
